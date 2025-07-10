@@ -1,0 +1,21 @@
+name: geoapp_flutter
+description: Kullanıcı ve admin yönetimli harita uygulaması.
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.1.5
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  uuid: ^4.5.1
+  http: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
