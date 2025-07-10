@@ -3,7 +3,7 @@ import 'dart:convert';
 
 class ApiService {
   static String baseUrl =
-      "https://10.0.2.2:7262/api"; // örnek, kendi API adresini gir!
+      "https://10.0.2.2:7262/api"; // kendi API adresini buraya yaz!
   static String? token;
 
   static Map<String, String> getHeaders() {
